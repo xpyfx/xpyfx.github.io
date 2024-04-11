@@ -92,6 +92,11 @@
 }
 
 body {
+  background-color: #B0DAF1;
+  background-image: url("https://www.transparenttextures.com/patterns/diagonales-decalees.png");
+}
+
+body {
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
