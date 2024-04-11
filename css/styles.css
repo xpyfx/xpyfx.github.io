@@ -10,6 +10,12 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ body {
+  background-color: #B0DAF1;
+  background-image: url("https://www.transparenttextures.com/patterns/assault.png");
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -91,10 +97,6 @@
   }
 }
 
-body {
-  background-color: #B0DAF1;
-  background-image: url("https://www.transparenttextures.com/patterns/assault.png");
-}
 
 body {
   margin: 0;
