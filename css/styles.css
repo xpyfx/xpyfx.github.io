@@ -11,10 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
- body {
-  background-color: #B0DAF1;
-  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-}
+
 
 :root {
   --bs-blue: #0d6efd;
@@ -27,8 +24,8 @@
   --bs-green: #198754;
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
-  --bs-black: #000;
-  --bs-white: #fff;
+  --bs-black: #000000;
+  --bs-white: #ffffff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-gray-100: #f8f9fa;
@@ -68,7 +65,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-bg: #ffffff;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -79,8 +76,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #8D91C7;
-  --bs-link-hover-color: #1E152A;
+  --bs-link-color: #f5a8bc;
+  --bs-link-hover-color: #000000;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -109,9 +106,10 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-background-color: #B0DAF1;
-font-family:"Noto Snas TC", snas-sarif;
-font-weight：300;
+  background-color: ##d6dadd;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  font-family:"Noto Snas TC", sans-serif;
+  font-weight:300;
 
 }
 
@@ -8140,6 +8138,8 @@ textarea.form-control-lg {
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-image: url(../assets/img/BP2.jfif);
+  background-position:-147px top;
 }
 
 .bg-secondary {
