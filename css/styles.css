@@ -4362,8 +4362,8 @@ textarea.form-control-lg {
   --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(189, 93, 56, 0.25);
   --bs-accordion-body-padding-x: 1.25rem;
   --bs-accordion-body-padding-y: 1rem;
-  --bs-accordion-active-color: #00000;
-  --bs-accordion-active-bg: #FFB6C1;
+  --bs-accordion-active-color: #FFB6C1;
+  --bs-accordion-active-bg: #000000;
 }
 
 .accordion-button {
