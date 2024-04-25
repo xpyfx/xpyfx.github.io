@@ -8047,7 +8047,6 @@ textarea.form-control-lg {
 .text-primary {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
-  background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
 }
 
 .text-secondary {
