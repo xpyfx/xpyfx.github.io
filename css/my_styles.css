@@ -34,6 +34,9 @@
   nav a{
     color: #f5a8bc!important;
   }
+  nav {
+    padding-top: 140px
+  }
   nav a:hover{
     font-size: 125%;
     color: #ccc!important;
@@ -41,6 +44,7 @@
   }
   .h1,h1{
     color: #6E75A8;
+    text-align: center;
   }
   .subheading{
     color: #6c757d;
@@ -97,4 +101,6 @@
       width: 100%;
       height: 100%;
   }
-  
+  #sideNav .navbar-brand .img-profile {
+  border:0;
+  }
