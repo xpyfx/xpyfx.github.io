@@ -1,10 +1,13 @@
  
-.pink{
+  .pink{
     color: #F5A8BC!important;
   }
   .rouge-pink{
     color: #F5A8A8;
   }
+  .light-pink{
+  color: #FF1493;
+}
   .dark-blue{
     color: #354f66!important;
   }
@@ -92,7 +95,37 @@
     font-weight: <weight>;
     font-style: normal;
   }
-  
+  .font-dot{
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  .font-japanese{
+  font-family: "Zen Antique", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.font-nabla{
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "EDPT" 100,
+    "EHLT" 12;
+}
+.font-handwriting{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.font-damn,h4{
+  font-family: "Rampart One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
   .accordion-button:not(.collapsed) {
       color: #f5a8bc;
       background-color: #000;
@@ -168,3 +201,6 @@
     width: auto;
     height: 413px;
   }
+.namecard {
+  height: 300px;
+}
