@@ -31,6 +31,9 @@
     background-image: url(../assets/img/BP2.jpg);
     background-position:-147px 245px;
   }
+  .center {
+    text-align:center;
+  }
   nav a{
     color: #f5a8bc!important;
   }
@@ -61,6 +64,17 @@
     font-family:"Noto Serif TC", serif;
     font-weight:300;
   }
+  .font-dm-serif-display{
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .font-indie-flower{
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
   .accordion-button:not(.collapsed) {
       color: #f5a8bc;
       background-color: #000;
@@ -103,4 +117,11 @@
   }
   #sideNav .navbar-brand .img-profile {
   border:0;
+  }
+  #about {
+    background: fixed url("https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/bg.jpg?v=1714144943751") top center;
+  }
+  #about .wrap {
+    background: rgba(255,255,255,0.7);
+    padding: 2em;
   }
