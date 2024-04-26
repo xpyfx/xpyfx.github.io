@@ -191,7 +191,7 @@
   }
   #interests {
     background-size: cover;
-    background: fixed url("https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/bg4.jpeg?v=1714147240863") -100px -550px;
+    background: fixed url("../assets/img/me.JPG") -100px -550px;
   }
   #interests .wrap {
     background: rgba(255,255,255,0.7);
