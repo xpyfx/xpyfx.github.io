@@ -5,17 +5,29 @@
   .rouge-pink{
     color: #F5A8A8;
   }
+  .dark-blue{
+    color: #354f66!important;
+  }
   .light-purple{
     color: #8D91C7;
   }
-  .dark-blue{
-    color: #354f66;
+  .light-blue-purple{
+    color: #A7ACF6;
   }
   .dark-purple{
-    color: #1e152a;
+    color: #1e152a!important;
+  }
+  .dim-gray{
+    color: #696969;
+  }
+  .light-blue-gray{
+    color: #778899;
   }
   .hover-black:hover{
     color: #000!important;
+  }
+  .lavender-purple{
+    color: #FFF0F5;
   }
   
   .wall-color{
@@ -74,6 +86,12 @@
     font-weight: 400;
     font-style: normal;
   }
+  .font-cinzel{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
   
   .accordion-button:not(.collapsed) {
       color: #f5a8bc;
@@ -118,6 +136,9 @@
   #sideNav .navbar-brand .img-profile {
   border:0;
   }
+  .wrap {
+    margin: 0 auto;
+  }
   #about {
     background: fixed url("https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/bg.jpg?v=1714144943751") top center;
   }
@@ -125,3 +146,22 @@
     background: rgba(255,255,255,0.7);
     padding: 2em;
   }
+  #education {
+    background-size: cover!improtant;
+    background-repeat: no-repeat!important;
+    background: fixed url("https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/bg3.jpeg?v=1714149513644") -20px center;
+  }
+  #education .wrap {
+    background: rgba(255,255,255,0.7);
+    padding: 2em;
+    width: 90%;
+  }
+  #interests {
+    background-size: cover;
+    background: fixed url("https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/bg4.jpeg?v=1714147240863") -100px -550px;
+  }
+  #interests .wrap {
+    background: rgba(255,255,255,0.7);
+    padding: 2em;
+  }
+  
