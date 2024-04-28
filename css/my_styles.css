@@ -1,286 +1,583 @@
-*{cursor: url(data:image/png;base64,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) 1 1, auto !important;}
+<!DOCTYPE html>
 
-  .pink{
-    color: #F5A8BC!important;
-  }
-  .rouge-pink{
-    color: #F5A8A8;
-  }
-  .light-pink{
-  color: #FF1493;
-}
-  .dark-blue{
-    color: #354f66!important;
-  }
-  .light-purple{
-    color: #8D91C7;
-  }
-  .light-blue-purple{
-    color: #A7ACF6;
-  }
-  .dark-purple{
-    color: #1e152a!important;
-  }
-  .dim-gray{
-    color: #696969;
-  }
-  .light-blue-gray{
-    color: #778899;
-  }
-  .hover-black:hover{
-    color: #000!important;
-  }
-  .lavender-purple{
-    color: #FFF0F5;
-  }
-  
-  .wall-color{
-    color: #d6dadd;
-  }
-  
-  .wall-image{
-    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-  }
-  .leftside-wall{
-    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
-    background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
-    background-image: url(../assets/img/BP2.jpg);
-    background-position:-147px 245px;
-  }
-  .center {
-    text-align:center;
-  }
-  nav a{
-    color: #f5a8bc!important;
-  }
-  nav {
-    padding-top: 140px
-  }
-  nav a:hover{
-    font-size: 125%;
-    color: #ccc!important;
-    
-  }
-  .h1,h1{
-    color: #6E75A8;
-    text-align: center;
-  }
-  .subheading{
-    color: #6c757d;
-  }
-  p.lead{
-    color: #354f66;
-    text-align: center;
-  }
-  a.social-icon:hover{
-    background: #F5A8A8!important;
-  }
-  
-  .font-serif{
-    font-family:"Noto Serif TC", serif;
-    font-weight:300;
-  }
-  .font-dm-serif-display{
-    font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .font-indie-flower{
-    font-family: "Indie Flower", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .font-cinzel{
-    font-family: "Cinzel", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
-  .font-dot{
-  font-family: "DotGothic16", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-  .font-japanese{
-  font-family: "Zen Antique", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.font-nabla{
-  font-family: "Nabla", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "EDPT" 100,
-    "EHLT" 12;
-}
-.font-handwriting{
-  font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-.font-damn,h4{
-  font-family: "Rampart One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+<html lang="Zh-TW">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="履歷" />
+        <meta name="author" content="彭翊方" />
+        <title>彭翊方的履歷</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/profil.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />    
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Indie+Flower&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=DM+Serif+Display:ital@0;1&family=DotGothic16&family=Indie+Flower&family=Nabla&family=Rampart+One&family=Zen+Antique&display=swap" rel="stylesheet">
 
-  .accordion-button:not(.collapsed) {
-      color: #f5a8bc;
-      background-color: #000;
-  }
-  .accordion {
-    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23f5a8bc'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-    --bs-accordion-btn-focus-box-shadow: 0 0 0 0 rgba(189, 93, 56, 0.25);
-  }
-  .accordion-body {
-    padding: 0 0;
-  }
-  .carousel-item *{
-    margin: 0 auto;
-    display: block;
-  }
-  
-  .w-62 {
-    width: 62% !important;
-  }
-  .videobox {
-      position: relative;
-      width: 100%;
-      height: 0;
-      padding-bottom: 56.25%;
-  }
-  .paperbox{
-    position: relative;
-      width: 100%;
-      height: 0;
-      padding-bottom: 133%;
-  }
-  .videobox iframe,
-  .paperbox iframe{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-  }
-  #sideNav .navbar-brand .img-profile {
-  border:0;
-  }
-  .wrap {
-    margin: 0 auto;
-  }
-  #about {
-    background: fixed url("https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/bg.jpg?v=1714144943751") top center;
-  }
-  #about .wrap {
-    background: rgba(255,255,255,0.7);
-    padding: 2em;
-  }
-  @media (orientation: portrait) {
-    #about,
-    #education,
-    #interests{
-      /*background: url("https://www.transparenttextures.com/patterns/asfalt-dark.png")!important;*/
-      background-size: cover!important;
+      <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/my_styles.css" rel="stylesheet" />
+        
+    </head>
+    <body id="page-top" class="wall-color wall-image">
       
-    }
-    }
-  #education {
-    background-size: cover!important;
-    background-repeat: no-repeat!important;
-    background: fixed url("https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/bg3.jpeg?v=1714149513644") -20px center;
-  }
-  #education .wrap {
-    background: rgba(255,255,255,0.7);
-    padding: 2em;
-    width: 90%;
-  }
-  #interests {
-    background-size: cover;
-    background: fixed url("../assets/img/me.JPG") -100px -550px;
-  }
-  #interests .wrap {
-    background: rgba(255,255,255,0.7);
-    padding: 2em;
-  }
-  .poster img{
-    width: auto;
-    height: 413px;
-  }
-.namecard {
-  height: 300px;
-}
-.myposter{
-  #ex4 {  
-    width: 800px;  
-    margin: 0 auto;  
-}  
-   
-#ex4 img {  
-    margin: 20px;  
-    border: 5px solid #eee;  
-    -webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);  
-    -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);  
-    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);  
-    -webkit-transition: all 0.5s ease-out;  
-    -moz-transition: all 0.5s ease;  
-    -o-transition: all 0.5s ease;  
-}  
-   
-#ex4 img:hover {  
-    -webkit-transform: rotate(-7deg);  
-    -moz-transform: rotate(-7deg);  
-    -o-transform: rotate(-7deg);  
-}  
-}
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top leftside-wall" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Anastasia Peng</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-0.2" src="assets/img/profil.png" alt="彭翊方的照片" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                   
+                 
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about"><div class="wrap">
+                <div class="resume-section-content">
+                    <h1 class="mb-3">
+                      <strong><span class=" font-serif">彭翊方</span></strong>
+                      <span class="pink font-cinzel">Anastasia</span>
+                    </h1>
+                    <div class="subheading mb-5 center">
+                            <span class="font-japanese">文山區 世新大學 · 116, Taipei City, Wenshan District, 木柵路一段17巷1號 <br><span  class="dim-gray">(886) 95288-5288</span></span>
+                        <a href="mailto:phoebe.pyf.com" class="light-pink hover-black font-handwriting"><span style="text-transform:lowercase;">phoebe.pyf@gmail.com</span></a>
+                    </div>
+                  <div class="font-serif">
+                    <p class="lead mb-5">樂於學習，積極向上，這就是我，不要懷疑。</p>
+                    <p class="lead mb-3">本人今年19，出生於2005年的台北，星座是牡羊座，生日是3月22日，血型A。</p>
+                    <p class="lead mb-3">目前就讀世新資訊傳播學系，喜歡唱歌、看電影、打Game和聽音樂。</p>
+                    <p class="lead mb-3">善於學習語言，目前正在學習英文、韓文、西班牙文。</p>
+                  </div>
+                    
+                    <div class="social-icons center">
+                        <a class="social-icon" href="#! https://github.com/xpyfx"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="#! https://www.instagram.com/xpyfx/"><i class="fab fa-instagram"></i></a>
+                        <a class="social-icon" href="#! https://lin.ee/IFfrV1X"><i class="fab fa-line"></i></a>
+                        <a class="social-icon" href="#! https://www.facebook.com/fangfanglaobaby?mibextid=YMEMSu"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+              </div></section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-3 font-damn">KGI凱基證券</h3>
+                            <div class="subheading mb-3">podcast剪輯外包</div>
+                            <p class="dark-blue">人生第一份打工，仍然在職。</p>
+                            <img src="https://cdn.glitch.global/fe4ca831-8b33-436e-970e-b97dc309dd84/Screenshot%202024-04-28%20at%2011.12.09%20PM.png?v=1714317148023" width="500">
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary dark-purple">April, 2023 - Present</span></div>
+                    </div>
+                  <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-3 font-damn">資深吃鷄玩家</h3>
+                            <div class="subheading mb-3">王牌10星耀眼戰績，區域排行榜玩家。</div>
+                            <p class="dark-blue">專業玩家，仍然在職。</p>
+            
+                          <div class="row">
+                      <div class="col">
+                          <img class="img-fluid" src="https://cdn.glitch.global/fe4ca831-8b33-436e-970e-b97dc309dd84/IMG_68961B2E2DAE-1.jpeg?v=1714318896977"/>
+                      </div>
+                      <div class="col">
+                         <img class="img-fluid" src="https://cdn.glitch.global/fe4ca831-8b33-436e-970e-b97dc309dd84/info.jpg?v=1714317609400"/>
+                      </div>
+                      </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary dark-purple">April, 2021 - Present</span></div>
+                    </div>
+                  <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-3 font-damn">資深境外探險員🇰🇷🇮🇹🇺🇸🇦🇺🇯🇵🇹🇭🇻🇳🇮🇩🇨🇳🇭🇰🇸🇬🇨🇦🇲🇴</h3>
+                            <div class="subheading mb-3">19歲，累計探索超過15個國家（努力回憶中...）。</div>
+                            <p class="dark-blue">仍在探索新國家。</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary dark-purple">October, 2007 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                    </div>
+                </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education"><div class="wrap">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">華興高中</h3>
+                            <div class="subheading mb-3 font-serif">社會組<a href="https://www.hhhs.tp.edu.tw/nss/p/index" target="_blank"><i class="fa-solid fa-school pink hover-black"></i></a></div>
+                            <p class="dark-blue ">高中三年，順利畢業。</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary dark-purple">August, 2020 - June, 2023</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">世新大學</h3>
+                            <div class="subheading mb-3 font-serif">資訊傳播學系<a href="https://ics.wp.shu.edu.tw/" target="_blank"><i class="fa-solid fa-school pink hover-black"></i></a></div>
+                            <p class="dark-blue">就讀中。</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary dark-purple">September, 2023 - Present</span></div>
+                    </div>
+                    </div>
+              </div></section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fa-brands fa-windows"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-apple"></i></li>
+                        <li class="list-inline-item"><i class="fa-solid fa-file-word"></i></li>
+                        <li class="list-inline-item"><i class="fa-solid fa-file-excel"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-github"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-google"></i></li>
+                        <li class="list-inline-item"><i class="fa-solid fa-code"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-wix"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-line"></i></li>
+                        <li class="list-inline-item"><i class="fa-solid fa-desktop"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-pinterest"></i></li>
+                        <li class="list-inline-item"><i class="fa-solid fa-brain"></i></li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests"><div class="wrap">
+             
+                <div class="resume-section-content">
+                  <h2 class="mb-5">Interests</h2>
+                  <div class="dark-blue">
+                    <p>身為一個大學生，我具備學習的熱忱，我喜歡挑戰自己不熟悉但有興趣的事物，我樂於學習，努力將我不擅長的事物從興趣轉換為專長。</p>
+                    <p class="mb-1">平時除了聽音樂、唱歌之外，我也喜歡打遊戲來放鬆自己，最喜歡打的遊戲是和平精英，是PUBG的陸服，自從開始玩遊戲之後也開逐漸對各種槍支有所瞭解，也算是無意間學習到很多軍事知識。</p>
+                    <p class="mb-1">我最喜歡學習的事物就是語言，我認爲能流利的用各種不同的語言和其他國家的人們交流，也期待在自己精進語言的過程中能有所成長，拓展人脈。</p>
+                  </div>
+                   </div>
+              </div></section>
+            <hr class="m-0" />
+            <!-- Portfolio-->
+            <section class="resume-section" id="portfolio">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Portfolio</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-newspaper pink"></i></span>
+                            <h4>
+                              海報呈現
+                          </h4>
+                        </li>
+                      <div class="mb-5">
+                      <div class="container text-center poster">
+                        <div class="row">
+                      <div class="col">
+                          <img src="assets/img/retro-poster.png"/>
+                      </div>
+                      <div class="col">
+                         <img src="assets/img/111.png"/>
+                      </div>
+                      </div></div>
+                    </div>
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-id-card pink"></i></span>
+                            <h4>
+                              名片設計
+                          </h4>
+                          <div class="mb-5">
+                            <img class="namecard" src="assets/img/namecard.jpeg"/>
+                          </div>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-display pink"></i></span>
+                          <h4>
+                            策展自己-About Me
+                          </h4>
+                          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
 
-.cursor {
-  padding: 30px 30px 0;
-  width: 100%;
-  height: 400px;
-  position: relative;
-  font-family: monospace;
-}
-.effect {
-  height: 100%;
-  position: relative;
-}
-.byline {
-  padding: 6px 8px;
-  font-style: italic;
-  background: #f9f9f9;
-  opacity: 0.7;
-  border-bottom: 1px solid black;
-}
-.github-corner:hover .octo-arm {
-  animation: octocat-wave 560ms ease-in-out;
-}
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/1.jpg?v=1714042054981" class="d-block w-100" alt="About Me">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/2.jpg?v=1714042056256" class="d-block w-100" alt="策展自己 主題内容">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/3.jpg?v=1714042056941" class="d-block w-100" alt="策展工具Virsody">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/4.jpg?v=1714042057825" class="d-block w-100" alt="製作目的與動機">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/5.jpg?v=1714042058606" class="d-block w-100" alt="Virsody策展呈現">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/6.jpg?v=1714042059396" class="d-block w-100" alt="策展呈現樣式">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/7.jpg?v=1714042060104" class="d-block w-100" alt="策展平台">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/8.jpg?v=1714042060824" class="d-block w-100" alt="挫折與困難">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/9.jpg?v=1714042061596" class="d-block w-100" alt="心得感想">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                        </li>
+                      <div class="mb-5">
+                          
+                          </div>
+                        <li>
+                            <span class="fa-li"><i class="fa-solid fa-display pink"></i></span>
+                           <h4>
+                             其他簡報作品
+                          </h4>
+                          
+                          <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
 
-@keyframes octocat-wave {
-  0%,
-  100% {
-    transform: rotate(0);
-  }
-  20%,
-  60% {
-    transform: rotate(-25deg);
-  }
-  40%,
-  80% {
-    transform: rotate(10deg);
-  }
-}
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#MCD" aria-expanded="True" aria-controls="collapseOne">
+                            麥當勞傳奇
+                          </button>
+                        </h2>
+                        <div id="MCD" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="14" aria-label="Slide 15"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="15" aria-label="Slide 16"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="16" aria-label="Slide 17"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="17" aria-label="Slide 18"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="18" aria-label="Slide 19"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="19" aria-label="Slide 20"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="20" aria-label="Slide 21"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="21" aria-label="Slide 22"></button>
+                        <button type="button" data-bs-target="#MCD" data-bs-slide-to="22" aria-label="Slide 23"></button>
 
-@media (max-width: 500px) {
-  .github-corner .octo-arm {
-    animation: octocat-wave 560ms ease-in-out;
-  }
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/1.jpg?v=1714045555128" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/2.jpg?v=1714045538112" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/3.jpg?v=1714045538892" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/4.jpg?v=1714045539774" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/5.jpg?v=1714045540506" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/6.jpg?v=1714045541205" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/7.jpg?v=1714045541918" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/8.jpg?v=1714045542609" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/9.jpg?v=1714045543296" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/10.jpg?v=1714045544059" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/11.jpg?v=1714045544832" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/12.jpg?v=1714045545559" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/13.jpg?v=1714045546286" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/14.jpg?v=1714045546979" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/15.jpg?v=1714045547699" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/16.jpg?v=1714045548440" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/17.jpg?v=1714045549153" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/18.jpg?v=1714045549883" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/19.jpg?v=1714045550623" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/20.jpg?v=1714045551349" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/21.jpg?v=1714045552083" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/22.jpg?v=1714045552808" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="https://cdn.glitch.global/17d343f9-ab3c-4575-884c-a74ab894ebac/23.jpg?v=1714045553572" class="d-block w-100" alt="...">
+                        </div>
 
-  .github-corner:hover .octo-arm {
-    animation: none;
-  } 
-}
+
+
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#MCD" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#MCD" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            品牌廣告解析- Emirates Airlines·阿聯酋航空
+                          </button>
+
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                          <div id="Emirates" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#Emirates" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#Emirates" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#Emirates" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                          </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/1.jpg?v=1714064825057" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/2.jpg?v=1714064101572" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <div class="videobox">
+                           <iframe src="https://www.youtube.com/embed/uQHhYRuaEtM?si=9wLvI1_yvBLInfII" allowfullscreen></iframe></div>
+                        </div>
+                            </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#Emirates" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#Emirates" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            特別的斯拉-特斯拉介紹
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                        <div id="Tesla" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#Tesla" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#Tesla" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#Tesla" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#Tesla" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#Tesla" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#Tesla" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#Tesla" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                            <button type="button" data-bs-target="#Tesla" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                            <button type="button" data-bs-target="#Tesla" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                            <button type="button" data-bs-target="#Tesla" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                            <button type="button" data-bs-target="#Tesla" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                            <button type="button" data-bs-target="#Tesla" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                            <button type="button" data-bs-target="#Tesla" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                            <button type="button" data-bs-target="#Tesla" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                            <button type="button" data-bs-target="#Tesla" data-bs-slide-to="14" aria-label="Slide 15"></button>
+                          </div>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="assets/img/1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/img/2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/img/3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/img/4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/img/5.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/img/6.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/img/7.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/img/8.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/img/9.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/img/10.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/img/11.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/img/12.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/img/13.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/img/14.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="assets/img/15.jpg" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#Tesla" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#Tesla" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                        </li>
+                      
+                        <li>
+                          
+                            <span class="fa-li"><i class="fa-solid fa-clipboard pink"></i></span>
+                              
+                          <div class="mb-5">
+                          </div>
+                            <h4>
+                              文章撰寫
+                          </h4>
+                        <div class="accordion accordion-flush w-62" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              可再生能源的發展趨勢與展望-議題探討
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <div class="paperbox">
+                          <iframe src="https://drive.google.com/file/d/1DflJ1dYBBsajDpiOcMiRhQSbX-EtVmz6/preview"  allow="autoplay"></iframe>  
+                              </div>  
+                            </div>
+                          </div>            
+                        </div>
+                          <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            數位內容策展工具介紹
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            </div><div class="paperbox">
+                          <iframe src="https://drive.google.com/file/d/1ZuPjpycNKQJJy05nfWNUZr9Zu0GbkjC4/preview" width="640" height="480" allow="autoplay"></iframe></div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            優秀數位內容賞析-Anna Wintour
+                          </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            </div><div class="paperbox">
+                          <iframe src="https://drive.google.com/file/d/1VGxQ-smOt1SJdhNech6yX8MB_WZoyKeQ/preview" width="640" height="480" allow="autoplay"></iframe></div>
+                        </div>
+                      </div>
+                      </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
