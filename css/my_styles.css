@@ -211,3 +211,9 @@ background-position: top center;
 .namecard {
 height: 300px;
 }
+@media (orientation: portrait){
+  div.social-icons.center 
+  {width:100%;}
+  div.social-icons.center
+  {margin-left:10px}
+  }
