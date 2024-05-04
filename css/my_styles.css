@@ -195,13 +195,13 @@ background-position: top center;
   padding: 2em;
 }
 #education {
-  background:  url("https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/bg3.jpeg?v=1714149513644") -20px center;
+  background:  url("https://cdn.glitch.global/69759ce5-46ea-401f-835f-d3087ca52dac/bg3.jpeg?v=1714149513644") top center;
 }
 #education .wrap {
   width: 90%;
 }
 #interests {
-  background: url("../assets/img/me.JPG") -100px -550px;
+  background: url("../assets/img/me.JPG") top center;
 }
 
 .poster img{
@@ -211,4 +211,3 @@ background-position: top center;
 .namecard {
 height: 300px;
 }
-
